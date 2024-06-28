@@ -27,7 +27,7 @@ body {
 }
 
 .logo{
-    width: 40%;
+    width: 35%;
 }
 
 header.navbar {
@@ -465,6 +465,9 @@ input:focus { outline: none; }
     .list, .login-bar{
         display: flex;
     }
+    .box-logo{
+        width: 100%;
+    }
 
 
 }
@@ -519,5 +522,6 @@ input:focus { outline: none; }
         display: flex;
         
     }
+    
 
 }
