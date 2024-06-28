@@ -103,6 +103,7 @@ a {
     font-weight: 500;
     color: #666;
     display: none;
+    visibility: hidden;
 }
 footer{
     display: flex;
@@ -118,11 +119,16 @@ main {
     margin: 0 auto;
     width: 90%;
 }
+article:hover .descripcion{
+    visibility: visible;
+}
 
+article:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
 
-.modificar {
+.modificar{
     margin: 10px;
-
 }
 
 img {
@@ -157,8 +163,12 @@ img {
     position: absolute;
     right: 20px;
     top: -15px;
+    transition: transform 700ms;
 }
-
+.fa-truck:hover{
+    cursor:pointer;
+    transform: rotate(-90deg);
+}
 
 footer h4 {
     color: #666;
@@ -393,7 +403,17 @@ input[type="file"] {
 
 input:focus { outline: none; }
 
+.fa-user-shield:hover{
+    color:#0040a0
+}
 
+.fa-gift:hover{
+    color:#0040a0
+}
+
+.fa-credit-card:hover{
+    color: #0040a0;
+}
 
 @media (min-width: 481px) {
     .box{
@@ -404,7 +424,7 @@ input:focus { outline: none; }
     }
 
     .modificar {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
         width: 45%;
     }
     .descripcion{
@@ -452,7 +472,7 @@ input:focus { outline: none; }
 
 @media (min-width: 769px) {
     .modificar {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
         width: 20%;
     }
 
