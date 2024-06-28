@@ -13,6 +13,7 @@ body {
     background-color: #ebebeb;
 }
 
+
 .box-flex-logo{
     display: flex;
     flex-wrap: wrap;
@@ -105,10 +106,7 @@ a {
     display: none;
     visibility: hidden;
 }
-footer{
-    display: flex;
-    
-}
+
 .centrado {
     text-align: center;
     margin: 5%;
@@ -415,6 +413,7 @@ input:focus { outline: none; }
     color: #0040a0;
 }
 
+
 @media (min-width: 481px) {
     .box{
         display: flex;
@@ -467,6 +466,7 @@ input:focus { outline: none; }
         display: flex;
     }
 
+
 }
 
 
@@ -515,4 +515,9 @@ input:focus { outline: none; }
         padding-left: 0%;
         justify-content: center;
     }
+    footer{
+        display: flex;
+        
+    }
+
 }
