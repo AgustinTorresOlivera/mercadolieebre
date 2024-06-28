@@ -165,7 +165,7 @@ img {
     top: -15px;
     transition: transform 700ms;
 }
-.fa-truck:hover{
+article:hover .fa-truck{
     cursor:pointer;
     transform: rotate(-90deg);
 }
