@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Producto</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="sss.css">
+</head>
+<body>
+    <header>
+        <section class="product-detail-header-icon">
+            <img src="essenciana-logo.svg" alt="Essenciana Logo">
+            
+        <div class="product-detail-header-actions">
+            <i class="fas fa-search"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fas fa-user"></i>
+        </section>
+    </header>
+
+    <main>
+        <section class="product-details">
+            <img src="/public/images/img-cafetera-moulinex.jpg" alt="Cortinas con Riel">
+            <div class="product-description">
+                <h1>Cortinas con Riel Hizzu</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptates iure autem earum in velit maxime eos.</p>
+                <p>Precio: $37.500</p>
+                <p>Disponibilidad: <span id="disponibilidad">Disponible</span></p>
+                <form action="#">
+                    <div class="cantidad-box">
+                        <label for="cantidad">Cantidad:</label>
+                        <div class="cantidad-controls">
+                            <button type="button" class="cantidad-btn"><i class="fas fa-minus"></i></button>
+                            <input type="number" id="cantidad" name="cantidad" min="1" value="1">
+                            <button type="button" class="cantidad-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="agregar-carrito-btn">Agregar al carrito</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="productos-relacionados">
+            <h2>Productos Relacionados</h2>
+
+            <article class="producto">
+                <div class="producto-imagen">
+                    <img src="/public/images/img-cafetera-moulinex.jpg" alt="Producto Relacionado 1">
+                </div>
+                <div class="producto-descripcion">
+                    <h3>Cortinas con Riel</h3>
+                    <p>Descripción breve del producto relacionado.</p>
+                    <p><strong>Precio:</strong> $23.500</p>
+                    <p><strong>Disponibilidad:</strong> <span>Disponible</span></p>
+                </div>
+
+            </article>
+            <article class="producto">
+                <div class="producto-imagen">
+                    <img src="/public/images/img-cafetera-moulinex.jpg" alt="Producto Relacionado 2">
+                </div>
+                <div class="producto-descripcion">
+                    <h3>Cortinas HiZu XXL</h3>
+                    <p>Descripción breve del producto relacionado.</p>
+                    <p><strong>Precio:</strong> $30.500</p>
+                    <p><strong>Disponibilidad:</strong> <span>Disponible</span></p>
+                </div>
+            </article>
+
+            <article class="producto">
+                <div class="producto-imagen">
+                    <img src="/public/images/img-cafetera-moulinex.jpg" alt="Producto Relacionado 2">
+                </div>
+                <div class="producto-descripcion">
+                        <h3>Funda de Edredon</h3>
+                        <p>Descripción breve del producto relacionado.</p>
+                        <p><strong>Precio:</strong> $53.500</p>
+                        <p><strong>Disponibilidad:</strong> <span>Disponible</span></p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <section class="centrado">
+            <h3>Nuestras redes:</h3>
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook"></i>Essenciana</a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i>essenciana.lr</a></li>
+                <li><a href="#"><i class="fa-brands fa-pinterest"></i>Essenciana</a></li>
+            </ul>
+        </section>
+        <img src="essenciana-logo.svg" class="logo-footer" alt="Essenciana Logo">
+        <section class="centrado">
+            <h3>Contáctanos:</h3>
+            <ul>
+                <li><i class="fa-solid fa-phone"></i>+5493804506892</li>
+                <li><a href="#"><i class="fa-solid fa-envelope"></i>Essen@gmail.com</a></li>
+                <li><i class="fa-solid fa-map"></i>Av. Rivadavia 1024</li>
+            </ul>
+        </section>
+    </footer>
+</body>
+</html>
