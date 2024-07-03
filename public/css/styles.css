@@ -26,9 +26,6 @@ body {
     justify-content: space-between;
 }
 
-.logo{
-    width: 35%;
-}
 
 header.navbar {
     background-color: #EAC926;
@@ -462,8 +459,6 @@ input:focus { outline: none; }
     .box-logo{
         width: 100%;
     }
-
-
 }
 
 
