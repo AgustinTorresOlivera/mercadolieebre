@@ -314,6 +314,7 @@ input[type="file"] {
     margin-top: 5%;
     padding: 5%;
     border-radius: 2%;
+    margin-bottom: 5%;
 }
 
 .input-user, .input-password{
